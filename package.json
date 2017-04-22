@@ -1,0 +1,22 @@
+{
+  "name": "tripit-export",
+  "version": "0.0.1",
+  "description": "Export list of trips from TripIt to json or csv.",
+  "main": "server.js",
+  "dependencies": {
+    "json2csv": "^3.7.3",
+    "minimist": "^1.2.0",
+    "request": "^2.81.0",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "tripit"
+  ],
+  "author": "Jeff Schnurr",
+  "license": "MIT"
+}
